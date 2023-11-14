@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import sunny from "../assets/Sunny.svg"
+import cloudy from "../assets/Cloudy.svg"
+import partlyCloudy from "../assets/PartlyCloudy.svg"
+import Rainy from "../assets/Rainy.svg"
 
 
 function WeatherCard(props) {
+
   return (
     <div className = "card">
         <div className = "img-container">
